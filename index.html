@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Which Simulation Model Element Are You?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Which Simulation Model Element Are You?</h1>
+
+<div class="input-section">
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" placeholder="Your Name">
+</div>
+
+<div class="quiz-section">
+    <p>1. How do you approach a new project?</p>
+    <label><input type="radio" name="q1" value="a"> Dive deep into data first. 📊</label><br>
+    <label><input type="radio" name="q1" value="b"> Plan and strategize. 📋</label><br>
+    <label><input type="radio" name="q1" value="c"> Experiment and iterate. 🔍</label><br>
+</div>
+
+<div class="quiz-section">
+    <p>2. Your favorite tool for analysis?</p>
+    <label><input type="radio" name="q2" value="a"> Spreadsheets and charts. 📈</label><br>
+    <label><input type="radio" name="q2" value="b"> Statistical software. 🧮</label><br>
+    <label><input type="radio" name="q2" value="c"> Good ol' intuition. 💡</label><br>
+</div>
+
+<div class="quiz-section">
+    <p>3. How do you handle unexpected results?</p>
+    <label><input type="radio" name="q3" value="a"> Re-analyze the data. 🔄</label><br>
+    <label><input type="radio" name="q3" value="b"> Consult the literature. 📚</label><br>
+    <label><input type="radio" name="q3" value="c"> Take a break and come back later. ☕</label><br>
+</div>
+
+<button onclick="calculateResult()">Find Out!</button>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
